@@ -421,7 +421,7 @@ int main(void)
  800053e:	f000 fc75 	bl	8000e2c <HAL_GPIO_WritePin>
  8000542:	e7f1      	b.n	8000528 <main+0x10>
 	      }
-	      else
+	  else
 	      {
 	          HAL_GPIO_WritePin(Led_GPIO_Port, Led_Pin, GPIO_PIN_RESET);
  8000544:	2200      	movs	r2, #0
